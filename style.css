@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar {
+background-color: black;
+color: white;
+height: 8vh;
+display: flex;
+align-items: center;
+margin-bottom: 2rem;
+padding: 1rem;
+}
+#search-form {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+#search-form label {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+#search-form input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid black;
+}
+.apod {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem; 
+ }
+.apod-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.apod-pic {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+     right: 50%;
+}
